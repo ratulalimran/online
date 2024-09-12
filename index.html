@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratul Al Imran</title>
+    <link rel="icon" type="image/png" href="Icons\favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="visible-body">
+        <div id="nav-bar-with-logo">
+            <a href="http://ratulalimran.online/">
+            <img src="Icons\own logo-01.png" alt="Logo" height="50px">
+            </a>
+            <div id="top-nav-bar-options">
+            <p class="nav-bar-option">About Ratul</p>
+            <p class="nav-bar-option">Portfolios</p>
+            <p class="nav-bar-option">Contacts</p>
+            </div>
+        </div>
+        <div id="main-body">
+            <div id="name-image">
+            <h3 id="profile-name">RATUL AL IMRAN</h3>
+            <img src="Images\Profile image.png" alt="ratul-al-imran">
+            </div>
+            <div id="description-field">
+                <div id="icon-container">
+                    <div class="icon-box">
+                        <img src="Icons\Profile-icon.png" alt="profile-icon" class="icons">
+                    </div>
+                    <div onclick="viewClick()" class="icon-box" id="work-experience">
+                        <img src="Icons\003-briefcare 1.png" alt="work-icon" class="icons">
+                    </div>
+                    <div class="icon-box">
+                        <img src="Icons\skillset.png" alt="skillset-icon" class="icons">
+                    </div>
+                    <div class="icon-box">
+                        <img src="Icons\Education 1.png" alt="Education-icon" class="icons">
+                    </div>
+                    <div class="icon-box">
+                        <img src="Icons\communication 1.png" alt="communication-icon" class="icons">
+                    </div>
+                    <div class="icon-box">
+                        <img src="Icons\Family 1.png" alt="family-icon" class="icons">
+                    </div>
+                    <div class="spaceholder"></div>
+                </div>
+                <div id="description">
+                    <img src="Icons\Profile-icon.png" alt="Profile-icon" id="description-icon">
+                    <div class="description-headline"><span style="color: #FEA832;">INTRODUCTION</span></div>
+                    <img src="Images\Crown Cement factory 1.png" alt="Crown-cement-factory-pic" id="Crown-cement-factory-pic">
+                    <span style="color: aliceblue;" id="description-text">Presently working at <span style="color: #FEA832;">CROWN CEMENT PLC</span>,
+                    a renown cement manufacturing company of Bangladesh, as an Officer of Marketing
+                    Information System. I make raw data comprehensive and understandable that helps the user in making sales related
+                    decisions. I love using modern skills and also like developing them on continuous basis.<br><br>
+                    Currently resided in Dhaka, Bangladesh, I am from Munshiganj district by birth. After completing Honors and Masters in
+                    Business Management from Dhaka Collage, I pursued to freelancing world and discovered myself in the data industry.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script>
+    function viewClick(){
+        document.getElementById("description").innerHTML = 
+        <img src="Icons\Profile-icon.png" alt="Profile-icon" id="description-icon">
+                <div class="description-headline"><span style="color: #FEA832;">INTRODUCTION</span></div>
+                <img src="Images\Crown Cement factory 1.png" alt="Crown-cement-factory-pic" id="Crown-cement-factory-pic">
+                    <span style="color: aliceblue;" id="description-text">Presently working at <span style="color: #FEA832;">CROWN CEMENT PLC</span>,
+                        a renown cement manufacturing company of Bangladesh, as an Officer of Marketing
+                        Information System. I make raw data comprehensive and understandable that helps the user in making sales related
+                        decisions. I love using modern skills and also like developing them on continuous basis.<br><br>
+                            Currently resided in Dhaka, Bangladesh, I am from Munshiganj district by birth. After completing Honors and Masters in
+                            Business Management from Dhaka Collage, I pursued to freelancing world and discovered myself in the data industry.</span>;
+    }
+</script>
+</html>
